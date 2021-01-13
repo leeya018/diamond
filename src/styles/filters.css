@@ -1,0 +1,18 @@
+.filters {
+  width:80%;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: gray;
+  font-weight: bold;
+}
+.filters > div {
+  flex-grow: 1;
+  width: 25%;
+  height: 100px;
+  height: 8em;
+}
+.filters > div:nth-child(1) {
+  order: 8;
+}
